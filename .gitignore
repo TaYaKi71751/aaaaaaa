@@ -1,0 +1,4 @@
+.gdb_history
+peda-session-*
+.vscode/settings.json
+*.out
