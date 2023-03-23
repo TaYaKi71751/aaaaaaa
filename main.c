@@ -52,4 +52,5 @@ int main(){
 	uint64_t a = 0b1010,b = 0b101;
 	uint128_t* r = uint64_mul(&a,&b);
 	printf("0x%016llx 0x%016llx",(r->x),(r->y));
+	free(r);
 }
